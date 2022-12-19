@@ -1,6 +1,6 @@
-FROM centos:7
+FROM ubuntu:18.04
 
-RUN yum -y install openssh openssh-clients openssh-server
+RUN apt-get update && apt-get install -y openssh-client openssh-server
 EXPOSE 22
 
 COPY entrypoint.sh /
