@@ -15,7 +15,7 @@ spec:
       dnsPolicy: ClusterFirstWithHostNet
       containers:
         - name: sshd-jumpserver
-          image: registry.datahub.only.sap/infrabox/ssh-jumpserver:0.0.1
+          image: registry.datahub.only.sap/infrabox/ssh-jumpserver:0.0.2
           ports:
             - containerPort: 22
               protocol: TCP
