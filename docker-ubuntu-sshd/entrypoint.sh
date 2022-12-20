@@ -11,4 +11,4 @@ chmod 600 /root/.ssh/authorized_keys
 
 #/usr/sbin/sshd -D
 mkdir -p /run/sshd && chmod 755 /run/sshd
-/usr/sbin/sshd
+/usr/sbin/sshd && sleep infinity
